@@ -1,0 +1,222 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642748987970' stop='1642748994655'>
+    <name>Booking: As a user, I can booking Kos in Duo Tenan Start from Today</name>
+    <title>Booking: As a user, I can booking Kos in Duo Tenan Start from Today</title>
+    <test-cases>
+        <test-case start='1642748987971' status='passed' stop='1642748987974'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642748987975' status='passed' stop='1642748992883'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642748987978' status='passed' stop='1642748992881'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d5da907b-3d44-4baf-b376-5d50ae17c162-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1642748992883' status='passed' stop='1642748994632'>
+            <name>When I login with 081311683238 and Vel@2</name>
+            <title>When I login with 081311683238 and Vel@2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642748992886' status='passed' stop='1642748992921'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='07daa61d-9bbd-4070-9d04-6b98775f81a2-attachment.json' type='application/json' size='100'/>
+                        <attachment title='Response' source='1e427a52-c84a-403e-ae85-1d188b0ae571-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642748992933' status='passed' stop='1642748993065'>
+                    <name>POST /session/:sessionId/element/bea9f4e9-efb2-446b-97dc-f7a4ad8548ea/clear</name>
+                    <title>POST /session/:sessionId/element/bea9f4e9-efb2-446b-97dc-f7a4ad8548ea/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1642748993076' status='passed' stop='1642748993375'>
+                    <name>POST /session/:sessionId/element/bea9f4e9-efb2-446b-97dc-f7a4ad8548ea/value</name>
+                    <title>POST /session/:sessionId/element/bea9f4e9-efb2-446b-97dc-f7a4ad8548ea/value</title>
+                    <attachments>
+                        <attachment title='Request' source='e55466f5-391d-4f48-95cf-bdcee77a77b3-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642748993379' status='passed' stop='1642748993534'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ee92a140-a425-45ed-b866-85f5a988fb0f-attachment.json' type='application/json' size='100'/>
+                        <attachment title='Response' source='600fcb2b-19cb-4e16-9351-be71d68089d4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642748993537' status='passed' stop='1642748993633'>
+                    <name>POST /session/:sessionId/element/e219f7eb-e95c-4efa-86ce-7ddac6c5c403/clear</name>
+                    <title>POST /session/:sessionId/element/e219f7eb-e95c-4efa-86ce-7ddac6c5c403/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1642748993634' status='passed' stop='1642748993797'>
+                    <name>POST /session/:sessionId/element/e219f7eb-e95c-4efa-86ce-7ddac6c5c403/value</name>
+                    <title>POST /session/:sessionId/element/e219f7eb-e95c-4efa-86ce-7ddac6c5c403/value</title>
+                    <attachments>
+                        <attachment title='Request' source='c0982553-1d12-47d2-8f4c-e380a71c4a44-attachment.json' type='application/json' size='21'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642748993799' status='passed' stop='1642748993977'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='865dd7fc-59f4-44a0-9374-8bb095ae9239-attachment.json' type='application/json' size='117'/>
+                        <attachment title='Response' source='8c78db6d-e5bf-42af-9a07-2c56cc3713e0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642748993980' status='passed' stop='1642748994626'>
+                    <name>POST /session/:sessionId/element/f130508f-d00b-4aca-9cfa-0133c8277f17/click</name>
+                    <title>POST /session/:sessionId/element/f130508f-d00b-4aca-9cfa-0133c8277f17/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1642748994633' status='broken' stop='1642748994638'>
+            <name>And I am on the Duo Tenan page</name>
+            <title>And I am on the Duo Tenan page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I am on the Duo Tenan page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I am on the Duo Tenan page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\push\techmamiteam\features\booking1.feature):1:1
+                	at Scenario(As a user, I can booking Kos in Duo Tenan Start from Today):3:3
+                	at Step(I am on the Duo Tenan page):7:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1642748994638' status='broken' stop='1642748994639'>
+            <name>And I Apply for Rent</name>
+            <title>And I Apply for Rent</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I Apply for Rent" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I Apply for Rent" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\push\techmamiteam\features\booking1.feature):1:1
+                	at Scenario(As a user, I can booking Kos in Duo Tenan Start from Today):3:3
+                	at Step(I Apply for Rent):8:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1642748994639' status='broken' stop='1642748994640'>
+            <name>And Chat Pemilik Kos &lt;pemilik></name>
+            <title>And Chat Pemilik Kos &lt;pemilik></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "Chat Pemilik Kos &lt;pemilik>" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Chat Pemilik Kos &lt;pemilik>" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\push\techmamiteam\features\booking1.feature):1:1
+                	at Scenario(As a user, I can booking Kos in Duo Tenan Start from Today):3:3
+                	at Step(Chat Pemilik Kos &lt;pemilik>):9:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1642748994640' status='broken' stop='1642748994642'>
+            <name>Then I should waiting for owner reply</name>
+            <title>Then I should waiting for owner reply</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should waiting for owner reply" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should waiting for owner reply" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\push\techmamiteam\features\booking1.feature):1:1
+                	at Scenario(As a user, I can booking Kos in Duo Tenan Start from Today):3:3
+                	at Step(I should waiting for owner reply):10:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1642748994642' status='passed' stop='1642748994646'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

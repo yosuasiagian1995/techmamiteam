@@ -4,10 +4,10 @@ Feature: Login
 
     Given I am on the login page
     When I login with <username> and <password>
-    Then I should waiting for owner reply
+    Then I will see pop up Nomor dan password tidak sesuai
 
     Examples:
-      | username     | password             | 
-      | 081284774512 | Vel@2021             | 
+      | username     | password          | 
+      | 081000000    | Vhehahe2@         | 
   
   

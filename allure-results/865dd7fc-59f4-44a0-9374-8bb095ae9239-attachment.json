@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//button[@class='btn btn-primary btn-mamigreen login-button track-login-tenant']"
+}

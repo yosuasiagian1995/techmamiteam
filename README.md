@@ -19,6 +19,10 @@ Step Reproduce : 1.Masuk Home page 2.Masukan Username Password 3.Submit 4.Pindah
 7.Ajukan Sewa 78.Chat Pemilik Kos
 
 
+Test Case1
+Login Negative
+Step Reproduce : 1.Masuk Home page 2.Masukan Username Password yang salah 3.Submit 4.Keluar Pop Up error
+Expected : Keluar Pop Up Error
 
 
 

@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": ".login-input:nth-child(2) .form-login-input:nth-child(2)"
+}
